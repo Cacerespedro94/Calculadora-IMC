@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<html lang = "es">
+<head>
+	<meta charset="UTF-8"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="style/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/imc.js"></script>
+	<title >Calculadora IMC</title>
+</head>
+<body>
+	<div id="titulo">
+		<h1>Calculadora IMC</h1>
+	</div>
+<div id="fondo">
+<div id="caja">
+
+
+	<div class="form-group">
+	<form action="" method="POST" id="formulario" onsubmit="return false"> 
+ 	<table  id="tabla">
+ 		<tr>
+ 		<td> <label for ="estatura"><b>Estatura: </b>Centimetros </label> 
+ 		<input type="text" class="form-control"  id="estatura"/> 
+ 		
+ 		</td>
+ 		<td><label for ="peso" id="pes"><b>Peso: </b>Kilogramos </label> 
+ 		<input type="text" class="form-control" name="peso" id="peso"/> 
+ 		
+ 		</td>
+ 		</tr>
+		<tr>
+			<td>
+			<span id="error_estatura"></span> <br>	
+			</td>
+			<td>
+			<span id="error_peso"></span><br>		
+			</td>
+		</tr>
+		
+ 		
+ 		</table>
+  		
+  		<div><input type="submit" class="btn btn-success" value="Calcular" id="submit"> 
+ 		</div>
+ 	</form>
+ 	<div class="resultados">
+		
+	<p id="p_imc">Tu IMC es: <span> </span>
+	</p>
+
+	<p id="p_mensaje"><span> </span></p>
+		
+</div>	
+ 	</div>
+ </div>
+
+</div>
+</div>
+
+
+</body>
+</html>

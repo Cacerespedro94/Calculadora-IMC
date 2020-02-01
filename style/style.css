@@ -1,0 +1,51 @@
+#titulo{
+	text-align: center;
+	padding: 10px;
+}
+
+#formulario{
+	text-align: center;
+padding-top: 100px;	
+}
+
+#caja{
+	width: 600px;
+	height: 600px;
+	background-color: #c4fff1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+#fondo{
+	background-color: #36423f;
+	height: 1920px;
+}
+#titulo{
+	height: 25px;
+}
+.form-control{
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+#error_estatura{
+	color:red;
+}
+#error_peso{
+	color:red;
+}
+.resultados{
+	margin-top: 65px;
+	text-align: center;
+
+}
+#tabla{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: separate;
+	border-spacing: 50px 0px;
+}
+#submit{
+margin-top: 20px;
+}
