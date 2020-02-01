@@ -64,7 +64,7 @@ window.addEventListener('load',function(){
 		}
 			if(final<15)
 		{
- 			mensaje = "Tienes obesidad severa";
+ 			mensaje = "Presentas delgadez muy severa";
 		}
 	p_imc.innerHTML = final;
 	p_mensaje.innerHTML = mensaje;
