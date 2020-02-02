@@ -1,6 +1,7 @@
 #titulo{
+	color:black;
 	text-align: center;
-	padding: 10px;
+	background: #36423f;
 }
 
 #formulario{
@@ -11,14 +12,15 @@ padding-top: 100px;
 #caja{
 	width: 600px;
 	height: 600px;
-	background-color: #c4fff1;
+	background-color: #7d9fee;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+
 }
 #fondo{
 	background-color: #36423f;
 	height: 1920px;
+	padding: 25px;
 }
 #titulo{
 	height: 25px;
@@ -48,4 +50,13 @@ padding-top: 100px;
 }
 #submit{
 margin-top: 20px;
+}
+h1{
+	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+	text-align: center;
+	color:white;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-text-stroke: 1px black;
+	margin-top: 30px;
 }
